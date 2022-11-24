@@ -115,5 +115,3 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
 });
-
-//check push
