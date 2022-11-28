@@ -1,18 +1,7 @@
 import {View, Text, StyleSheet} from 'react-native';
 import React from 'react';
+import MainNavigator from './src/navigation/RootNavigator';
 
 export default function App() {
-  return (
-    <View style={styles.mainContainer}>
-      <Text>React Native Animation</Text>
-    </View>
-  );
+  return <MainNavigator />;
 }
-
-const styles = StyleSheet.create({
-  mainContainer: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-  },
-});
