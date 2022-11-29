@@ -3,7 +3,7 @@ import {NavigationContainer} from '@react-navigation/native';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import RouteName from './RouteName';
 import BasicAnimation from '../screens/BasicAnimation';
-import BasicsOfPanResonder from '../screens/PanResponder';
+import BasicsOfPanResonder from '../screens/BasicAnimation/PanResponder/index';
 
 const Stack = createNativeStackNavigator();
 
