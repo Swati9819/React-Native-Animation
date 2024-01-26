@@ -1,7 +1,7 @@
 import React from 'react';
 
 /**
- * custom imports
+ * custom imports --- adding logs
  */
 
 import 'react-native-gesture-handler';
